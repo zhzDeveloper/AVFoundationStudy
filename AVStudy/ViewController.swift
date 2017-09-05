@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    let dataSource: [String] = ["audio record", "audio play", ""]
+    let dataSource: [String] = ["audio record", "audio play", "video record", "video play"]
     var tableView: UITableView!
    
     override func viewDidLoad() {
